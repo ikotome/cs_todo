@@ -19,6 +19,5 @@ public class IndexModel : PageModel
     {
         Db db = new();      // ここでDBに接続
         Tasks = db.Tasks;   // ここでDBからデータを取得
-        
     }
 }

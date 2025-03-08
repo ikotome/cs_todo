@@ -218,3 +218,4 @@
 /Users/kotomi/my_program/cs_todo/todolist/obj/Debug/net9.0/todolist.pdb
 /Users/kotomi/my_program/cs_todo/todolist/obj/Debug/net9.0/todolist.genruntimeconfig.cache
 /Users/kotomi/my_program/cs_todo/todolist/obj/Debug/net9.0/ref/todolist.dll
+/Users/kotomi/my_program/cs_todo/todolist/obj/Debug/net9.0/todolist.sourcelink.json
