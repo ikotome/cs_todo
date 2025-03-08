@@ -1,0 +1,31 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Todo List</h1>
+    <a class="btn btn-primary" href="/Create" role="button"> Create Task </a>
+    <table class="table">
+        <thead>
+            <tr>
+            <th scope="col">#</th>
+            <th scope="col">Title</th>
+            <th scope="col">Limit_Date</th>
+            <th scope="col">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (todolist.models.Task item in Model.Tasks)
+        {
+            <tr>
+                <th scope="row">@item.ID</th>
+                <td>@item.Title</td>
+                <td>@item.Limitdate.ToString("yyyy/MM/dd")</td>
+                <td>@item.Status</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
